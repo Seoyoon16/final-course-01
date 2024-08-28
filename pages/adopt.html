@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sub-adopt.css">
+    <title>Petco Love Adopt | Practice project</title>
+    <link rel="icon" href="../imgs/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav id="top-nav">
+        <div><a href="../index.html">Petco Love</a></div>
+        <div><span class="text-overline">|</span></div>
+        <div><a href="./lost.html">Petco Love Lost</a></div>
+        <div><span class="text-overline">|</span></div>
+        <div><a href="./care.html">Petco Love Care</a></div>
+    </nav>
+
+    <header>
+        <div>
+            <a href="./adopt.html">
+                <img id="logo1" src="../imgs/logo.png" alt="logo" width="140" height="50">
+            </a>
+        </div>
+        <div id="menu-container">
+            <a href=#>Adopt at Petco</a>
+            <a href=#>Foster</a>
+            <a href=#>Love Stories</a>
+            <a href=#>About</a>
+        </div>
+        <div>
+            <a id="search-btn" href=#>Search for a Pet</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="adopt-part1">
+            <form id="adopt-form" action="/submit-path" method="post">
+                <h1>Your <span>love</span> story starts here.</h1>
+                <span>Find adoptable pets near you with a simple search.</span>
+                <div id="search-field">
+                    <input type="search" id="search-input" name="search" placeholder="&#x1F50D; Search by city or zip"
+                        required><br>
+                    <span><a href="#">&#x2708; Use current location</a></span>
+                </div>
+                <div id="animal-field">
+                    <span><a id="dog-btn" href="#">&#x1F415; Dog</a></span>
+                    <span><a href="#">&#x1F408; Cat</a></span>
+                    <span><a href="#">&#x1F407; Other</a></span>
+                </div>
+                <div id="lets-go"><a href="#">Let's go!</a></div>
+                <div id="img-field">
+                    <img src="../imgs/adopt-form-img.jpg" alt="adopt-img" width="200" height="200">
+                </div>
+            </form>
+        </div>
+
+        <div id="adopt-part2">
+            <div>
+                <span>Love is always in the air somewhere</span>
+                <h1>We bring pets + <br>
+                    people together.</h1>
+            </div>
+            <div id="to-adopt">
+                <img src="../imgs/cat-l.jpg" alt="cat-care" width="200" height="200">
+                <span>Love lives here</span>
+                <h3>Adopt at Petco</h3>
+                <p>With more than 1,500 locations across the country, love is always close to home. Stop by Petco to
+                    meet your pet in person.</p>
+                <a href="#">Find a Petco Near You</a>
+            </div>
+            <div id="to-read">
+                <img src="../imgs/dog-l.jpg" alt="dog-smile" width="200" height="200">
+                <span>Adoption is just the beginning</span>
+                <h3>Read Love Stories</h3>
+                <p>When a family adopts a pet, everything changes for the better. Check out heartwarming stories of pet
+                    adoption told by our community members.</p>
+                <a href="#">Read Love Stories</a>
+            </div>
+            <div id="to-consider">
+                <img src="../imgs/pet-l.jpg" alt="pets-happy" width="200" height="200">
+                <span>Show a little love</span>
+                <h3>Consider Fostering</h3>
+                <p>Not ready or able to commit to adopting a dog, cat, or other pet? No problem. You can still make a
+                    world of difference by fostering a pet temporarily.</p>
+                <a href="#">Learn About Fostering</a>
+            </div>
+        </div>
+
+        <div id="adopt-part3">
+            <p>Meet your match</p>
+            <h1>These pets are in your area and ready for adoption. Swipe to find <span id="tilt">The One</span>.</h1>
+            <div class="slider">
+                <div>
+                    <img src="../imgs/a_Addy.png" alt="Addy" width="200" height="200">
+                    <span>Addy</span>
+                    <span>San Diego, CA</span>
+                    <span>Young female</span>
+                </div>
+                <div>
+                    <img src="../imgs/a_Angel.png" alt="Angel" width="200" height="200">
+                    <span>Angel</span>
+                    <span>San Diego, CA</span>
+                    <span>Adult female</span>
+                </div>
+                <div>
+                    <img src="../imgs/a_Theo.png" alt="Theo" width="200" height="200">
+                    <span>Theo</span>
+                    <span>San Diego, CA</span>
+                    <span>Young male</span>
+                </div>
+                <div>
+                    <img src="../imgs/a_Dublin.png" alt="Dublin" width="200" height="200">
+                    <span>Dublin</span>
+                    <span>San Diego, CA</span>
+                    <span>Puppy female</span>
+                </div>
+                <div>
+                    <img src="../imgs/a_Vienna.png" alt="Vienna" width="200" height="200">
+                    <span>Vienna</span>
+                    <span>San Diego, CA</span>
+                    <span>Puppy female</span>
+                </div>
+                <div>
+                    <img src="../imgs/a_Bolt.png" alt="Bolt" width="200" height="200">
+                    <span>Bolt</span>
+                    <span>San Diego, CA</span>
+                    <span>Adult male</span>
+                </div>
+                <div>
+                    <img src="../imgs/a_Sleepy.png" alt="Sleepy" width="200" height="200">
+                    <span>Sleepy</span>
+                    <span>San Diego, CA</span>
+                    <span>Young male</span>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev">&lt;</button>
+                <button class="next">&gt;</button>
+            </div>
+        </div>
+
+        <div id="adopt-part4">
+            <h1>Don’t let your pet be the one who got away.</h1>
+            <span>Register with Petco Love Lost now in case they go missing later.</span>
+            <div><a href="#">Register Your Pet</a></div>
+        </div>
+
+        <div id="adopt-part5">
+            <span>Proof that love knows no bounds</span>
+            <h1>Real-life <span>Love</span> Stories</h1>
+            <div id="story-box">
+                <div id="story-content1">
+                    <!-- <a href="#"><img src="../imgs/desk.jpg" alt="img" width="200" height="200"></a> -->
+                    <span><a href=#>Carol + Treetop</a></span>
+                </div>
+                <div id="story-content2">
+                    <!-- <a href="#"><img src="../imgs/desk.jpg" alt="img" width="200" height="200"></a> -->
+                    <span><a href=#>Yukari + Butter</a></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="part6">
+            <!-- <img src="./imgs/dog-animated2.gif" alt="dog-gif" width="100%" height="500"> -->
+            <p>Got <strong>Love?</strong> Give <strong>Love.</strong></p>
+            <div><a href="#">Donate</a></div>
+        </div>
+
+        <div id="part7">
+            <p>Get <span>Love</span> in your inbox.</p>
+            <form id="form">
+                <div id="email-field">
+                    <input type="email" id="email-input" name="email" placeholder="Enter your email" required>
+                    <span>Subscribe</span>
+                </div>
+            </form>
+            <div id="icon-zips">
+                <div><img src="../imgs/facebook.png" alt="facebook" width="60" height="60"></div>
+                <div><img src="../imgs/insta.png" alt="insta" width="60" height="60"></div>
+                <div><img src="../imgs/X.png" alt="x" width="60" height="60"></div>
+                <div><img src="../imgs/youtube.png" alt="youtube" width="60" height="60"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="./adopt.html">
+                <img id="logo2" src="../imgs/logo.png" alt="logo" width="150" height="50">
+            </a>
+        </div>
+        <div class="footer-container">
+            <div>
+                <span class="color-text">ABOUT</span>
+                <span><a href="#">Who We Are</a></span>
+                <span><a href="#">Love Stories</a></span>
+            </div>
+            <div>
+                <span class="color-text">OUR FAMILY</span>
+                <span><a href="../index.html">Petco Love Love</a></span>
+                <span><a href="./care.html">Petco Love Care</a></span>
+                <span><a href="./lost.html">Petco Love Lost</a></span>
+                <span><a href="#">Petco.com</a></span>
+            </div>
+            <div>
+                <span class="color-text">Resources</span>
+                <span><a href="#">Foster</a></span>
+                <span><a href="#">Adopt at Petco</a></span>
+            </div>
+            <div>
+                <span class="color-text">MORE</span>
+                <span><a href="#">Help Center</a></span>
+            </div>
+        </div>
+        <hr>
+        <div id="bottom-text1">
+            <p>Use of this service, website, or application constitutes acceptance of all terms listed above. Petco Love
+                Adopt and its associated logos are trademarks of Petco Animal Supplies, Inc.™ 2024, Petco Love | Petco
+                Animal Supplies, Inc. All rights reserved.</p>
+        </div>
+        <div id="bottom-text2">
+            <span><a href="#">Privacy Policy</a></span>
+            <span>|</span>
+            <span><a href="#">Terms of Service</a></span>
+        </div>
+    </footer>
+</body>
+
+</html>

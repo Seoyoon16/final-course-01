@@ -1,0 +1,415 @@
+/* Universal Style Rules */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
+
+/* care.html */
+/* top-navigation */
+#top-nav {
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#top-nav div {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#top-nav div a {
+    color: #636563;
+    font-size: 12px;
+}
+
+#top-nav div a:hover {
+    color: #5D239B;
+}
+
+.text-overline {
+    height: 12px;
+    opacity: 0.5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+header div {
+    display: inline-block;
+}
+
+header div img {
+    margin: 7px 0 5px 70px;
+}
+
+#menu-container a {
+    margin: 5px 20px;
+    color: black;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+#menu-container a:hover {
+    border-bottom: 5px solid #5F249F;
+}
+
+#vaccine-btn {
+    margin-right: 70px;
+    padding: 10px 20px;
+    background-color: #5F249F;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#vaccine-btn:hover {
+    background-color: #40176c;
+}
+
+/* main */
+/* part1 */
+#care-part1 {
+    background-color: #F3EBFA;
+    color: #00205B;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15vh;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#care-part1 h1 {
+    font-size: 60px;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+#care-part1 p {
+    font-size: 24px;
+    line-height: 1.5;
+    width: 82%;
+}
+
+#care-part1 img {
+    flex: 0 0 56%;
+    object-fit: cover;
+    height: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+}
+
+/* part2 */
+#care-part2 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+#care-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    width: 84%;
+    margin: 0 auto;
+}
+
+#care-part2 span {
+    font-size: 18px;
+}
+
+#care-part2 h1 {
+    font-size: 48px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+#care-container h3 {
+    color: #00205B;
+    font-size: 24px;
+    margin: 5px 0 15px 0;
+}
+
+#care-container p {
+    font-size: 17px;
+    line-height: 1.5;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* part3 */
+#care-part3 {
+    width: 100%;
+    height: 120vh;
+    margin-bottom: 15vh;
+    display: flex;
+}
+
+.image-container {
+    background-color: #DFCCF3;
+    position: relative;
+    height: 110vh;
+    width: 40%;
+}
+
+.text-container {
+    background-color: #F5EFFB;
+    position: relative;
+    top: 10vh;
+    height: 110vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.image-container img {
+    position: absolute;
+    width: 45vw;
+    height: 80vh;
+    top: 140px;
+    left: 100px;
+    border-radius: 20px;
+    z-index: 16;
+}
+
+.text-container h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #00205B;
+    width: 50%;
+    margin-left: 300px;
+}
+
+.text-container p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: black;
+    width: 49%;
+    margin-left: 300px;
+    line-height: 1.5;
+}
+
+.text-container a {
+    font-size: 17px;
+    color: #00205B;
+    border-bottom: 3px solid #6EDCFA;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-left: 300px;
+}
+
+.text-container a:hover {
+    border-bottom-color: #00205B;
+}
+
+/* part6 */
+#part6 {
+    background-image: url("../imgs/dog-animated2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 10vh;
+    width: 100%;
+    height: 70vh;
+    color: white;
+}
+
+#part6 p {
+    font-size: 50px;
+    padding-top: 22vh;
+    padding-bottom: 7vh;
+}
+
+#part6 div a {
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 12px 33px;
+}
+
+#part6 div a:hover {
+    background-color: white;
+    color: #5F249F;
+}
+
+/* part7 */
+#part7 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 30vh;
+    justify-items: center;
+    align-items: center;
+}
+
+#part7 p {
+    font-size: 28px;
+    justify-self: start;
+    margin-left: 5vw;
+}
+
+#part7 p span {
+    color: #5D239B;
+}
+
+#email-field {
+    background-color: #F5EFFB;
+    padding: 10px;
+    margin-left: 14vw;
+}
+
+#email-field input {
+    background-color: #F5EFFB;
+    color: #5F249F;
+    width: 36vw;
+    padding: 15px 10px;
+    justify-self: end;
+}
+
+#email-field span {
+    font-weight: bold;
+    border-bottom: 4px solid #5D239B;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+#email-field span:hover {
+    color: #885db6;
+}
+
+#email-input::placeholder {
+    color: #5F249F;
+    font-size: 16px;
+    opacity: 1;
+}
+
+#part7 div {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    display: inline-block;
+}
+
+#icon-zips {
+    margin-right: 14vw;
+    margin-bottom: 7vh;
+}
+
+#icon-zips img:hover {
+    opacity: 0.7;
+}
+
+/* footer */
+footer {
+    width: 90%;
+    height: 56vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-rows: 1fr 0.3fr 0.5fr;
+    border-top: 5px solid #4F1E84;
+    padding-top: 5vh;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 90px;
+    grid-column: 2 / 4;
+}
+
+.footer-container div span {
+    display: block;
+    padding: 10px;
+}
+
+.footer-container div span a {
+    color: #5c5c5c;
+}
+
+.footer-container div span a:hover {
+    color: #885db6;
+}
+
+.color-text {
+    color: #8E62BE;
+    font-size: 14px;
+}
+
+hr {
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+    width: 100%;
+    height: 1px;
+    background-color: gainsboro;
+    border: 0;
+    margin-top: 50px;
+}
+
+#bottom-text1 {
+    font-size: 13px;
+    grid-column: 1 / 3;
+}
+
+#bottom-text1 p {
+    padding-top: 20px;
+    line-height: 1.5;
+    width: 94%;
+}
+
+#bottom-text2 {
+    font-size: 13px;
+    grid-column: 3 / 4;
+    padding-top: 25px;
+    text-align: right;
+}
+
+#bottom-text2 span {
+    line-height: 1.5;
+    padding: 0 5px;
+}
+
+#bottom-text2 a {
+    color: black;
+}
+
+#bottom-text2 a:hover {
+    color: #8E62BE;
+}
+
+#bottom-text2 img {
+    margin-right: 15px;
+    vertical-align: middle;
+}
