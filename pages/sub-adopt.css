@@ -403,8 +403,10 @@ header div img {
 }
 
 #adopt-part4 span {
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 40px;
+    color: black;
+    font-weight: bold;
 }
 
 #adopt-part4 a {

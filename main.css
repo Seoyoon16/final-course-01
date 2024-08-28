@@ -196,6 +196,7 @@ header div img {
 #part3 iframe {
     width: 90vw;
     height: 100vh;
+    border-radius: 30px;
 }
 
 /* part4 */
