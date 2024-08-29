@@ -135,6 +135,7 @@ header div img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: nowrap;
     background-color: #f8f8f8;
     padding: 50px 10%;
     color: black;
@@ -144,7 +145,7 @@ header div img {
 }
 
 #lost-part2 img {
-    float: left;
+    float: right;
     margin-left: 20px;
 }
 
